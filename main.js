@@ -1,6 +1,6 @@
 const osmlayer = new ol.layer.Tile({
     source: new ol.source.OSM(),
-    visible: true
+    visible: false
 });
 
 
