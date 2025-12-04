@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>пример карты oL</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/ol@v10.2.1/dist/ol.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v10.2.1/ol.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header><h1>Функциональное зонирование территории</h1></header>
+        <div class="container">
+            <!--Основная часть с картой и панелью слоев-->
+            <aside class="sidebar">
+                <h3>Панель слоев</h3>
+                <ul>
+                    <li><input type="checkbox" id="gson_lyr" checked>Карта зонирования территории</li>
+                    <li><input type="checkbox" id="Lyr_OSM" checked>Базовая карта (OSM)</li>
+                </ul>
+            </aside>
+            <main id="map" class="map"></main>
+        </div>
+        <footer><p>&copy; 2025 Учебный проект по openlayers</p></footer>
+    <script src="./main.js"></script>
+</body>
+</html>
